@@ -1,5 +1,9 @@
+html{
+    height: 100%;
+}
 body{
-    margin-top: 140px;
+    margin:0;
+    background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
 }
 .outline{
     font-size: 75px;
@@ -15,6 +19,7 @@ body{
       0 0 151px #999;;
     -webkit-text-stroke:1px white;
   -webkit-text-fill-color:transparent;
+  margin:0;
 }
 .container{
     max-width: 400px;
@@ -25,7 +30,6 @@ body{
     text-align: right;
     height: 120px;
     line-height: 120px;
-    padding: 18px 8px;
     font-size: 50px;
     font-weight: 200;
     border-left: 1.5px solid #999;
@@ -37,7 +41,7 @@ body{
     display: grid;
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
-    border-bottom: 3px solid #edebe8;
+    border-bottom: 1px solid #edebe8;
     grid-template-columns: repeat(4,1fr);
     font-weight:200px; 
     color:white;
@@ -70,7 +74,7 @@ body{
 .foot{
     position: relative;
     text-align: center;
-    top:200px;
+    top:50px;
     color:white;
     text-shadow: 0 0 10px white;
 }
