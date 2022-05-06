@@ -6,6 +6,7 @@ body{
     background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
 }
 .outline{
+    padding-top:70px;
     font-size: 75px;
     text-align: center;
     text-shadow: 
